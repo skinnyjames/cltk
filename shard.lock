@@ -1,10 +1,10 @@
-version: 1.0
+version: 2.0
 shards:
   crystal-dfa:
-    github: ziprandom/crystal-dfa
-    commit: 6cc295c622226da3e9b2131ab8ce340c5f18ecb1
+    git: https://github.com/skinnyjames/crystal-dfa.git
+    version: 0.4.1+git.commit.2c2b37dca5b629ddba269574dcc49233d1b50a7d
 
   msgpack:
-    github: crystal-community/msgpack-crystal
-    version: 0.14.2
+    git: https://github.com/crystal-community/msgpack-crystal.git
+    version: 1.3.4+git.commit.46722a2502cb86b07a1461a2f5dca2e9a4db7d1b
 
