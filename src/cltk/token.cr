@@ -9,7 +9,7 @@ module CLTK
   # The Token class is used to represent the output of a RLTK::Lexer and the
   # input of a RLTK::Parser.
   {% if !@type.has_constant?("TokenValue") %}
-    alias TokenValue = String?
+    alias TokenValue = String? | Int32? | Int64? | Float32? | Float64? | Bool? | Array(TokenValue)? | Hash(String, TokenValue)?
   {% end %}
   class Token
     # @return [Symbol]
